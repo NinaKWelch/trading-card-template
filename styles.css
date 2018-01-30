@@ -83,12 +83,26 @@ ul {
 please don't change or add any class selectors */
 
 #card-100.card {
-  font-family: ;
+  border: solid 1px #e4e4e4;
+	/*padding: 40px;
+	width: 300px;*/
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 10px 10px 11px 0 rgba(0,0,0,0.11);
+	margin: auto;
 }
 
 #card-100 .card-title {
-  padding: ;
-  font-size: ;
+  font-family: "Six Caps", sans-serif;
+	font-weight: 500;
+	color: #181c27;
+	text-transform: uppercase;
+	font-size: 95px;
+	line-height: 0;
+	border-bottom: solid 20px #dcd4df;
+	/*padding: 30px 10px;*/
+	margin: 20px 0 40px;
+	display: inline-block;
 }
 
 /* if you have a second line on the card title,
@@ -98,29 +112,38 @@ use this class */
 }
 
 #card-100 img.card-img {
-
+  /*width: 300px;*/
+	border-radius: 5px;
 }
 
 #card-100 .card-body {
-  padding: ;
-  font-size: ;
+  border-top: solid 5px #dcd4df;
+	border-bottom: solid 5px #dcd4df;
+	box-sizing: border-box;
+	/*padding: 15px;*/
+	margin: 35px 0 0 0;
+	text-align: left;
+	font-family: "Poppins", sans-serif;
+	color: #181c27;
+	font-size: 12px;
+	text-align: justify;
 }
 
 #card-100 .card-subtitle {
-  font-size: ;
+  font-style: italic;
 }
 
 #card-100 .card-list-group {
-  padding: ;
-  line-height: ;
+  font-weight: bold;
 }
 
 #card-100 .card-list-group span {
-
+  list-style-type: none;
 }
 
 #card-100 .card-text {
-  line-height: ;
+  padding: 0;
+	margin: 0;
 }
 
 /* If you have a link in your card, add the styles here
