@@ -83,27 +83,40 @@ ul {
 please don't change or add any class selectors */
 
 #card-100.card {
-  font-family: ;
+  font-family: BenchNine;
+  border: 0.00625em solid #000;
+  background-image: -webkit-linear-gradient(#ffd214, #ffa500);
 }
 
 #card-100 .card-title {
-  padding: ;
-  font-size: ;
+  text-align: center;
+	font-size: 2.5em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-weight: 900;
+}
+
+#card-100 .card-title:hover {
+  color: #fff;
+  cursor: default;
 }
 
 /* if you have a second line on the card title,
 use this class */
 #card-100 .second-title {
-
+  
 }
 
 #card-100 img.card-img {
-
+  padding-left: 0.625em;
+	padding-right: 0.625em;
+  border-radius: 0.3125em;
 }
 
 #card-100 .card-body {
   padding: ;
-  font-size: ;
+  font-size: 1.0625em;
+  line-height: ;
 }
 
 #card-100 .card-subtitle {
@@ -111,25 +124,35 @@ use this class */
 }
 
 #card-100 .card-list-group {
-  padding: ;
-  line-height: ;
+  list-style: none;
+	font-size: 1.25em;
+	padding: 0 2em 0 2em;
+	margin: 0 0 0.3125em 0;
+  cursor: default;
+  text-align: center;
 }
 
 #card-100 .card-list-group span {
+  font-weight: bold;
+	text-align: center;
+	border-bottom: 0.00625em solid #000;
+}
 
+#card-100 .card-list-group span:hover {
+  color: #fff;
+	border-bottom: 0.00625em solid #fff;
 }
 
 #card-100 .card-text {
-  line-height: ;
+  font-size: 1.1em;
+	margin: 0.625em 0.625em 0 0.625em;
+  cursor: default;
 }
 
-/* If you have a link in your card, add the styles here
-If you don't have a link, leave it as it is */
+/* If you have a link in your card, add the styles here. If you don't have a link, leave it as it is */
 #card-100 .card-link {
  display: none;
 }
-
-
 
 /* Making any card linkable without changing the styling, please don't change */
 
