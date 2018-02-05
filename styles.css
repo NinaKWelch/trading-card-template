@@ -83,53 +83,99 @@ ul {
 please don't change or add any class selectors */
 
 #card-100.card {
-  font-family: ;
+  color: #008B8B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  background-image: url(http://laoblogger.com/images/fish-pattern-background-5.jpg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px #DCDCDC;
+  margin: inherit;
+  padding: 0px 15px 15px 15px;
 }
 
 #card-100 .card-title {
-  padding: ;
-  font-size: ;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  height: auto;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  background-color: #FFFACD;
+}
+
+#card-100 .card-title:hover {
+  
 }
 
 /* if you have a second line on the card title,
 use this class */
 #card-100 .second-title {
-
+  
 }
 
 #card-100 img.card-img {
-
+  height: auto;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
 }
 
 #card-100 .card-body {
-  padding: ;
-  font-size: ;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0px 10px 0px 10px;
+  background-color: #E6E6FA;
 }
 
 #card-100 .card-subtitle {
-  font-size: ;
+  font-style: italic;
 }
 
 #card-100 .card-list-group {
-  padding: ;
-  line-height: ;
+  list-style: none;
+  padding: 5px 5px 5px 5px;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  background-color: #FFFACD;
 }
 
 #card-100 .card-list-group span {
+  font-weight: bold;
+}
 
+#card-100 .card-list-group span:hover {
+  color: #fff;
+	border-bottom: 0.00625em solid #fff;
 }
 
 #card-100 .card-text {
-  line-height: ;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0px 10px 0px 10px;
+  background-color: #E6E6FA;
 }
 
-/* If you have a link in your card, add the styles here
-If you don't have a link, leave it as it is */
+/*This is the CSS for the QR code
+.qr-code{
+  width: 50px;
+  height: auto;
+  float: left;
+  padding: 3px 10px 0px 0px;
+}*/
+
+/* If you have a link in your card, add the styles here. If you don't have a link, leave it as it is */
 #card-100 .card-link {
  display: none;
 }
-
-
 
 /* Making any card linkable without changing the styling, please don't change */
 
