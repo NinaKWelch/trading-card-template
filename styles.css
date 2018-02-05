@@ -83,22 +83,32 @@ ul {
 please don't change or add any class selectors */
 
 #card-100.card {
-  font-family: BenchNine;
-  border: 0.00625em solid #000;
-  background-image: -webkit-linear-gradient(#ffd214, #ffa500);
+  color: #008B8B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  background-image: url(http://laoblogger.com/images/fish-pattern-background-5.jpg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px #DCDCDC;
+  margin: inherit;
+  padding: 0px 15px 15px 15px;
 }
 
 #card-100 .card-title {
   text-align: center;
-	font-size: 2.5em;
-	margin-top: 0.4em;
-	margin-bottom: 0.4em;
-	font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  height: auto;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  background-color: #FFFACD;
 }
 
 #card-100 .card-title:hover {
-  color: #fff;
-  cursor: default;
+  
 }
 
 /* if you have a second line on the card title,
@@ -108,34 +118,36 @@ use this class */
 }
 
 #card-100 img.card-img {
-  padding-left: 0.625em;
-	padding-right: 0.625em;
-  border-radius: 0.3125em;
+  height: auto;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
 }
 
 #card-100 .card-body {
-  padding: ;
-  font-size: 1.0625em;
-  line-height: ;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0px 10px 0px 10px;
+  background-color: #E6E6FA;
 }
 
 #card-100 .card-subtitle {
-  font-size: ;
+  font-style: italic;
 }
 
 #card-100 .card-list-group {
   list-style: none;
-	font-size: 1.25em;
-	padding: 0 2em 0 2em;
-	margin: 0 0 0.3125em 0;
-  cursor: default;
-  text-align: center;
+  padding: 5px 5px 5px 5px;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  background-color: #FFFACD;
 }
 
 #card-100 .card-list-group span {
   font-weight: bold;
-	text-align: center;
-	border-bottom: 0.00625em solid #000;
 }
 
 #card-100 .card-list-group span:hover {
@@ -144,10 +156,21 @@ use this class */
 }
 
 #card-100 .card-text {
-  font-size: 1.1em;
-	margin: 0.625em 0.625em 0 0.625em;
-  cursor: default;
+  border: solid 3px;
+  border-color: #5F9EA0;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0px 10px 0px 10px;
+  background-color: #E6E6FA;
 }
+
+/*This is the CSS for the QR code
+.qr-code{
+  width: 50px;
+  height: auto;
+  float: left;
+  padding: 3px 10px 0px 0px;
+}*/
 
 /* If you have a link in your card, add the styles here. If you don't have a link, leave it as it is */
 #card-100 .card-link {
