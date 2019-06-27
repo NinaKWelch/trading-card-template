@@ -126,7 +126,7 @@ use this class */
 /* If you have a link in your card, add the styles here
 If you don't have a link, leave it as it is */
 #card-100 .card-link {
- display: none;
+  display: none;
 }
 
 
@@ -134,13 +134,13 @@ If you don't have a link, leave it as it is */
 /* Making any card linkable without changing the styling, please don't change */
 
 .card-switch {
-color: inherit;
-text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .card-switch:hover {
-color: inherit;
-text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 
