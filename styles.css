@@ -83,53 +83,64 @@ ul {
 please don't change or add any class selectors */
 
 #card-100.card {
-  font-family: ;
+  font-family: sans-serif;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  background-color: #ffb366;
+  border: solid 2px gray;
 }
 
 #card-100 .card-title {
-  padding: ;
-  font-size: ;
+  text-align: center;
+}
+
+#card-100 .card-title:hover {
+ 
 }
 
 /* if you have a second line on the card title,
 use this class */
 #card-100 .second-title {
-
+  
 }
 
 #card-100 img.card-img {
-
+   margin: auto;
+   border: solid 2px grey;
+   padding: 2px; 
+   border-radius: 5px;
 }
 
 #card-100 .card-body {
-  padding: ;
-  font-size: ;
+  border: solid 1px grey;
+  padding: 1px;
+  text-align: center;
 }
 
 #card-100 .card-subtitle {
-  font-size: ;
+  text-align: center;
+  font-style: italic;
 }
 
 #card-100 .card-list-group {
-  padding: ;
-  line-height: ;
+  list-style: none;
 }
 
 #card-100 .card-list-group span {
+  
+}
 
+#card-100 .card-list-group span:hover {
+  
 }
 
 #card-100 .card-text {
-  line-height: ;
+  
 }
 
-/* If you have a link in your card, add the styles here
-If you don't have a link, leave it as it is */
+/* If you have a link in your card, add the styles here. If you don't have a link, leave it as it is */
 #card-100 .card-link {
   display: none;
 }
-
-
 
 /* Making any card linkable without changing the styling, please don't change */
 
