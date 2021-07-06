@@ -83,53 +83,73 @@ ul {
 please don't change or add any class selectors */
 
 #card-100.card {
-  font-family: ;
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #C8C8C8;
+  padding: 15px;
+  background-image: url(https://johnlewis.scene7.com/is/image/JohnLewis/231628188?$prod_main$);
 }
 
 #card-100 .card-title {
-  padding: ;
-  font-size: ;
+  margin: 5px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 2px 2px rgba(50, 50, 50, 1);
+}
+
+#card-100 .card-title:hover {
+  
 }
 
 /* if you have a second line on the card title,
 use this class */
 #card-100 .second-title {
-
+  
 }
 
 #card-100 img.card-img {
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d0bbb6;
 }
 
 #card-100 .card-body {
-  padding: ;
-  font-size: ;
+  border: 1px solid #d0bbb6;
+  padding: 10px;
+  text-align: justify;
+  background-color: #f8edea;
 }
 
 #card-100 .card-subtitle {
-  font-size: ;
-}
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 100;}
 
 #card-100 .card-list-group {
-  padding: ;
-  line-height: ;
+  list-style: none;
 }
 
 #card-100 .card-list-group span {
+  font-weight: bold;
+}
 
+#card-100 .card-list-group span:hover {
+  color: #fff;
+	border-bottom: 0.00625em solid #fff;
 }
 
 #card-100 .card-text {
-  line-height: ;
+  
 }
 
-/* If you have a link in your card, add the styles here
-If you don't have a link, leave it as it is */
+/* If you have a link in your card, add the styles here. If you don't have a link, leave it as it is */
 #card-100 .card-link {
   display: none;
 }
-
-
 
 /* Making any card linkable without changing the styling, please don't change */
 
